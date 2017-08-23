@@ -1,0 +1,14 @@
+<div class="copyright clearfix">
+  <p>{{ $.Site.Params.copyright }}</p>
+  <ul class="social_icon">
+    {{ if (isset $.Site.Params "facebook") }}
+      <li><a href="{{ $.Site.Params.facebook }}" target="_blank" class="facebook"><i class="icon-facebook5"></i></a></li>
+    {{end}}
+    {{ if (isset $.Site.Params "twitter") }}
+      <li><a href="{{ $.Site.Params.twitter }}" target="_blank" class="twitter"><i class="icon-twitter4"></i></a></li>
+    {{end}}
+    {{ if (isset $.Site.Params "google") }}
+      <li><a href="{{ $.Site.Params.google }}" target="_blank" class="google"><i class="icon-google"></i></a></li>
+    {{end}}
+  </ul>
+</div>

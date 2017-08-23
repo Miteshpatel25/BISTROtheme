@@ -1,0 +1,16 @@
+<div class="col-md-3 col-sm-6 footer_column">
+  <h4 class="heading">Quick Links</h4>
+  <hr class="half_space">
+  <ul class="widget_links">
+    {{ range .Site.Menus.main }}
+    {{ if .HasChildren }}
+          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ range .Children }}
+            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
+    {{else}}
+      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+    {{end}}
+    {{end}}
+  </ul>
+</div>

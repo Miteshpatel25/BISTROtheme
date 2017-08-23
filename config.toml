@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://bistrotheme.netlify.com/"
 title = "My New Hugo Site"
 
 [params]
@@ -9,6 +9,19 @@ title = "My New Hugo Site"
   dishesserved = "865"
   totalbevegage = "510"
   cupofcoffe = "1350"
+  formdesc = "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat."
+  copyright = "Copyright &copy; 2016 Bistro. All Right Reserved"
+  facebook = "https://www.facebook.com"
+  twitter = "https://www.twitter.com"
+  google = "https://plus.google.com"
+  whysitetitle = "Why Bistro?"
+  whysitesmalldesc = "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore dolor in hendrerit in vulputate."
+  whysiteanotherdesc = "Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl."
+  getintouch = "Restaurant, to consequat ipsum nec sagittis sem."
+  newslettertitle = "Sign up with your name and email to get updates fresh updates."
+  address = "Restaurant, Manhattan 1258,New York, USA Lahore"
+  mobile = "(+1) 234 567 8901"
+  email = "hello@website.com"
 
 [menu]
   # Shown in the header menu.
