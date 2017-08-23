@@ -1,0 +1,50 @@
+[
+  {
+    "type": "video",
+    "demo_image": "http://www.themesindustry.com/html/bistro/images/gallery1.jpg",
+    "preview_image": "https://player.vimeo.com/video/94224205?autoplay=1",
+    "content_type": "drinks"
+  },
+  {
+    "type": "image",
+    "demo_image": "http://www.themesindustry.com/html/bistro/images/galler2.jpg",
+    "preview_image": "http://www.themesindustry.com/html/bistro/images/galler2.jpg",
+    "content_type": "starters"
+  },
+  {
+    "type": "image",
+    "demo_image": "http://www.themesindustry.com/html/bistro/images/gallery3.jpg",
+    "preview_image": "http://www.themesindustry.com/html/bistro/images/gallery3.jpg",
+    "content_type": "dinner"
+  },
+  {
+    "type": "image",
+    "demo_image": "http://www.themesindustry.com/html/bistro/images/gallery4.jpg",
+    "preview_image": "http://www.themesindustry.com/html/bistro/images/gallery4.jpg",
+    "content_type": "drinks"
+  },
+  {
+    "type": "image",
+    "demo_image": "http://www.themesindustry.com/html/bistro/images/gallery5.jpg",
+    "preview_image": "http://www.themesindustry.com/html/bistro/images/gallery5.jpg",
+    "content_type": "dinner"
+  },
+  {
+    "type": "image",
+    "demo_image": "http://www.themesindustry.com/html/bistro/images/gallery6.jpg",
+    "preview_image": "http://www.themesindustry.com/html/bistro/images/gallery6.jpg",
+    "content_type": "lunch"
+  },
+  {
+    "type": "image",
+    "demo_image": "http://www.themesindustry.com/html/bistro/images/gallery7.jpg",
+    "preview_image": "http://www.themesindustry.com/html/bistro/images/gallery7.jpg",
+    "content_type": "starters"
+  },
+  {
+    "type": "video",
+    "demo_image": "http://www.themesindustry.com/html/bistro/images/gallery8.jpg",
+    "preview_image": "https://player.vimeo.com/video/94224205?autoplay=1",
+    "content_type": "starters"
+  }
+]

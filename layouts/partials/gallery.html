@@ -1,0 +1,57 @@
+<section id="gallery" class="padding">
+  <div class="container">
+      <div class="row">
+     <div class="col-md-12 text-center">
+        <h2 class="heading ">Delicious &nbsp; Food</h2>
+        <hr class="heading_space">
+        <div class="work-filter">
+          <ul class="text-center">
+             <li><a href="javascript:;" data-filter="all" class="active filter">All Food</a></li>
+             <li><a href="javascript:;" data-filter=".starters" class="filter">Starters</a></li>
+             <li><a href="javascript:;" data-filter=".drinks" class="filter">Drinks & Beverges</a></li>
+             <li><a href="javascript:;" data-filter=".dinner" class="filter"> Dinner</a></li>
+             <li><a href="javascript:;" data-filter=".lunch" class="filter">Breakfast & Lunch</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+     <div class="row">
+      <div class="zerogrid">
+        <div class="wrap-container">
+          <div class="wrap-content clearfix home-gallery">
+            {{ $gistJ := getJSON "/data/gallery/gallery.json" }}
+             {{ range $i,$r := $gistJ }}
+              {{ if eq $r.type "video" }}
+                <div class="col-1-4 mix work-item {{ $r.content_type }}">
+                  <div class="wrap-col">
+                    <div class="item-container">
+                      <div class="image">
+                        <img src="{{ $r.demo_image }}" alt="cook"/>
+                        <div class="overlay">
+                            <a class="video fancybox.iframe overlay-inner" href="{{ $r.preview_image }}"><i class=" icon-eye6"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              {{else}}
+              <div class="col-1-4 mix work-item {{ $r.content_type }}">
+                <div class="wrap-col">
+                  <div class="item-container">
+                    <div class="image">
+                      <img src="{{ $r.demo_image }}" alt="cook"/>
+                      <div class="overlay">
+                          <a class="fancybox overlay-inner" href="{{ $r.preview_image }}" data-fancybox-group="gallery"><i class=" icon-eye6"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {{end}}
+             {{end}}
+          </div>
+        </div>
+       </div>
+      </div>
+  </div>
+</section>

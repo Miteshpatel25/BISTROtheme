@@ -1,0 +1,32 @@
+[
+  {
+    "class":"default",
+    "data_transition": "fade",
+    "data_title": "Fish &nbsp; Steak",
+    "data_description": "Duis autem vel eum iriure dolor in hendrerit",
+    "imagesrc": "http://www.themesindustry.com/html/bistro/images/banner2.jpg",
+    "small_title": "<span class='small_title'>Yes We Have</span> <br> The &nbsp; Best &nbsp; Fish &nbsp;<span class='color'>Steak</span>",
+    "small_caption": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit,<br>sed diam nonummy nibh euismod.",
+    "quick_link": "<a href='#order-form' class='btn-common btn-white page-scroll'>Order Now</a>"
+  },
+  {
+    "class":"text-center",
+    "data_transition": "slideleft",
+    "data_title": "Bakery &nbsp; Items",
+    "data_description": "Duis autem vel eum iriure dolor in hendrerit",
+    "imagesrc": "http://www.themesindustry.com/html/bistro/images/banner1.jpg",
+    "small_title": "<span class='small_title'>  Delicious Bakery Items</span> <br> Coconut &nbsp; with &nbsp; <span class='color'>Lemon &nbsp; Grass</span>",
+    "small_caption": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit,<br>sed diam nonummy nibh euismod.",
+    "quick_link": "<a href='#specialities' class='btn-common btn-white page-scroll'>Learn &nbsp; More</a> &nbsp; <a href='#order-form' class='btn-common btn-orange page-scroll'>Order &nbsp; Now</a>"
+  },
+  {
+    "class":"text-right",
+    "data_transition": "slideleft",
+    "data_title": "Fresh &nbsp; Food",
+    "data_description": "Duis autem vel eum iriure dolor in hendrerit",
+    "imagesrc": "http://www.themesindustry.com/html/bistro/images/banner4.jpg",
+    "small_title": "<span class='small_title'>We Prepare</span> <br> Fresh &nbsp; Food &nbsp; <span class='color'>Vegies</span>",
+    "small_caption": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit,<br>sed diam nonummy nibh euismod.",
+    "quick_link": "<a href='#order-form' class='btn-common btn-white page-scroll'>Order Now</a>"
+  }
+]

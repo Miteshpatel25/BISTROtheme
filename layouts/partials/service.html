@@ -1,0 +1,39 @@
+<section id="services" class="padding-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+         <h2 class="heading">Featured &nbsp; Food</h2>
+         <hr class="heading_space">
+         <div class="slider_wrap">
+        <div id="service-slider" class="owl-carousel">
+          {{ $gistJ := getJSON "/data/service/service.json" }}
+           {{ range $i,$r := $gistJ }}
+           <div class="item">
+             <div class="item_inner">
+               <div class="image">
+               <img src="{{ $r.image }}" alt="Services Image">
+               <a  href="services.html"></a>
+               </div>
+               <h3><a href="services.html">{{ $r.title | safeHTML }}</a></h3>
+               <p>{{ $r.desc | safeHTML }}</p>
+             </div>
+           </div>
+           {{end}}
+        </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h2 class="heading">Our &nbsp; Menu</h2>
+        <hr class="heading_space">
+        <ul class="menu_widget">
+          {{ $gistJ := getJSON "/data/service/menu.json" }}
+           {{ range $i,$r := $gistJ }}
+            <li>{{ $r.title }}<span>{{ $r.price }}</span></li>
+           {{end}}
+        </ul>
+         <h3>Other Special Menu</h3>
+         <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse <strong>molestie consequat</strong>, vel illum dolore nulla facilisis.</p>
+      </div>
+    </div>
+  </div>
+</section>

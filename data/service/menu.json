@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Classic Nachos",
+    "price": "$23"
+  },
+  {
+    "title": "Nachos Grande",
+    "price": "$23"
+  },
+  {
+    "title": "Avocado Shell Stuffed",
+    "price": "$23"
+  },
+  {
+    "title": "Stuffed Mushroom",
+    "price": "$23"
+  },
+  {
+    "title": "Baked Potato Jackets",
+    "price": "$23"
+  },
+  {
+    "title": "Mexican Taco",
+    "price": "$23"
+  },
+  {
+    "title": "Tex-Mex Chicken",
+    "price": "$23"
+  },
+  {
+    "title": "Quesadillas Acapulco",
+    "price": "$23"
+  }
+]

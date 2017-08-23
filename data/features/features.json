@@ -1,0 +1,22 @@
+[
+  {
+    "icon":"<i class='icon-glass'></i>",
+    "title":"Dinner &amp; Dessert",
+    "desc":"you need a doctor for to consectetuer Lorem ipsum dolor, consectetur adipiscing onsectetur."
+  },
+  {
+    "icon":"<i class='icon-coffee'></i>",
+    "title":"Breakfast",
+    "desc":"you need a doctor for to consectetuer Lorem ipsum dolor, consectetur adipiscing onsectetur."
+  },
+  {
+    "icon":"<i class='icon-glass'></i>",
+    "title":"Ice Shakes",
+    "desc":"you need a doctor for to consectetuer Lorem ipsum dolor, consectetur adipiscing onsectetur."
+  },
+  {
+    "icon":"<i class='icon-coffee'></i>",
+    "title":"Beverges",
+    "desc":"you need a doctor for to consectetuer Lorem ipsum dolor, consectetur adipiscing onsectetur."
+  }
+]

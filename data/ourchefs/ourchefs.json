@@ -1,0 +1,38 @@
+[
+  {
+    "image": "http://www.themesindustry.com/html/bistro/images/our-cheffs1.jpg",
+    "name": "Stafeny Rose",
+    "post": "Head Of Kitchen",
+    "desc": "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat."
+  },
+  {
+    "image": "http://www.themesindustry.com/html/bistro/images/our-cheffs2.jpg",
+    "name": "Michael Reubens",
+    "post": "Food Supervisor",
+    "desc": "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat."
+  },
+  {
+    "image": "http://www.themesindustry.com/html/bistro/images/our-cheffs3.jpg",
+    "name": "Angle Maria",
+    "post": "Head Cook",
+    "desc": "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat."
+  },
+  {
+    "image": "http://www.themesindustry.com/html/bistro/images/our-cheffs1.jpg",
+    "name": "Stafeny Rose",
+    "post": "Food Supervisor",
+    "desc": "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat."
+  },
+  {
+    "image": "http://www.themesindustry.com/html/bistro/images/our-cheffs2.jpg",
+    "name": "David Miller",
+    "post": "Food Supervisor",
+    "desc": "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat."
+  },
+  {
+    "image": "http://www.themesindustry.com/html/bistro/images/our-cheffs3.jpg",
+    "name": "Cristina Rose",
+    "post": "Food Supervisor",
+    "desc": "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat."
+  }
+]

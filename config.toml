@@ -1,0 +1,94 @@
+baseURL = "http://example.org/"
+title = "My New Hugo Site"
+
+[params]
+  imagewithtitle = "HOT Deal of the Day"
+  imagewithdesc = "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore nulla facilisis. velit esse molestie consequat, vel illum dolore nulla facilisis."
+  imagewithbtn = "<a href='#order-form' class='btn-common-white page-scroll'>Order Now</a>"
+  happycustomer = "4680"
+  dishesserved = "865"
+  totalbevegage = "510"
+  cupofcoffe = "1350"
+
+[menu]
+  # Shown in the header menu.
+  [[menu.main]]
+    name = "Home"
+    weight = 1
+    identifier = "home"
+    url = "#"
+  [[menu.main]]
+    name = "Our Food"
+    weight = 2
+    identifier = "ourfood"
+    url = "#"
+  [[menu.main]]
+    name = "Pages"
+    weight = 3
+    identifier = "pages"
+    url = "#"
+      [[menu.main]]
+        name = "About Us"
+        weight = 4
+        parent = "pages"
+        url = "#"
+      [[menu.main]]
+        name = "Menu"
+        weight = 5
+        parent = "pages"
+        url = "#"
+      [[menu.main]]
+        name = "Blog Detail"
+        weight = 6
+        parent = "pages"
+        url = "#"
+      [[menu.main]]
+        name = "FAQ"
+        weight = 7
+        parent = "pages"
+        url = "#"
+   [[menu.main]]
+      name = "Gallery"
+      weight = 8
+      identifier = "gallery"
+      url = "#"
+        [[menu.main]]
+          name = "Gallery Two Column"
+          weight = 9
+          parent = "gallery"
+          url = "#"
+        [[menu.main]]
+          name = "Gallery Three Column"
+          weight = 10
+          parent = "gallery"
+          url = "#"
+        [[menu.main]]
+          name = "Gallery Four Column"
+          weight = 11
+          parent = "gallery"
+          url = "#"
+    [[menu.main]]
+      name = "Blog"
+      weight = 12
+      identifier = "blog"
+      url = "#"
+    [[menu.main]]
+      name = "Order Now"
+      weight = 13
+      identifier = "ordernow"
+      url = "#"
+    [[menu.main]]
+      name = "Location"
+      weight = 14
+      identifier = "loaction"
+      url = "#"
+        [[menu.main]]
+          name = "Location V1"
+          weight = 15
+          parent = "loaction"
+          url = "#"
+        [[menu.main]]
+          name = "Location V2"
+          weight = 16
+          parent = "loaction"
+          url = "#"
