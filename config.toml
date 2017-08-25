@@ -29,12 +29,12 @@ title = "My New Hugo Site"
     name = "Home"
     weight = 1
     identifier = "home"
-    url = "#"
+    url = "/"
   [[menu.main]]
     name = "Our Food"
     weight = 2
     identifier = "ourfood"
-    url = "#"
+    url = "/food/"
   [[menu.main]]
     name = "Pages"
     weight = 3
