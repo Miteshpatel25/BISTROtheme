@@ -44,22 +44,22 @@ title = "My New Hugo Site"
         name = "About Us"
         weight = 4
         parent = "pages"
-        url = "#"
+        url = "/about/"
       [[menu.main]]
         name = "Menu"
         weight = 5
         parent = "pages"
-        url = "#"
+        url = "/menu/"
       [[menu.main]]
         name = "Blog Detail"
         weight = 6
         parent = "pages"
-        url = "#"
+        url = "/blog/"
       [[menu.main]]
         name = "FAQ"
         weight = 7
         parent = "pages"
-        url = "#"
+        url = "/faq/"
    [[menu.main]]
       name = "Gallery"
       weight = 8
