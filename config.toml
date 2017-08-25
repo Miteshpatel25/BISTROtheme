@@ -69,17 +69,17 @@ title = "My New Hugo Site"
           name = "Gallery Two Column"
           weight = 9
           parent = "gallery"
-          url = "#"
+          url = "/gallerytwo/"
         [[menu.main]]
           name = "Gallery Three Column"
           weight = 10
           parent = "gallery"
-          url = "#"
+          url = "/gallerythree/"
         [[menu.main]]
           name = "Gallery Four Column"
           weight = 11
           parent = "gallery"
-          url = "#"
+          url = "/galleryfour/"
     [[menu.main]]
       name = "Blog"
       weight = 12
