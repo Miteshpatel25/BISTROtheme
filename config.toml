@@ -84,12 +84,12 @@ title = "My New Hugo Site"
       name = "Blog"
       weight = 12
       identifier = "blog"
-      url = "#"
+      url = "/blog/"
     [[menu.main]]
       name = "Order Now"
       weight = 13
       identifier = "ordernow"
-      url = "#"
+      url = "/order/"
     [[menu.main]]
       name = "Location"
       weight = 14
@@ -99,9 +99,9 @@ title = "My New Hugo Site"
           name = "Location V1"
           weight = 15
           parent = "loaction"
-          url = "#"
+          url = "/locationv1/"
         [[menu.main]]
           name = "Location V2"
           weight = 16
           parent = "loaction"
-          url = "#"
+          url = "/locationv2/"
