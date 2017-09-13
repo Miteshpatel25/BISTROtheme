@@ -1,5 +1,5 @@
 <div class="copyright clearfix">
-  <p>{{ $.Site.Params.copyright }}</p>
+  <p>{{ $.Site.Params.copyright | safeHTML }}</p>
   <ul class="social_icon">
     {{ if (isset $.Site.Params "facebook") }}
       <li><a href="{{ $.Site.Params.facebook }}" target="_blank" class="facebook"><i class="icon-facebook5"></i></a></li>
