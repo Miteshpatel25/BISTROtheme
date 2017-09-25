@@ -1,6 +1,6 @@
 [
   {
-    "image": "http://www.themesindustry.com/html/bistro/images/news-img1.jpg",
+    "image": "/images/news-img1.jpg",
     "day": "22",
     "month": "apr",
     "comment": "5",
@@ -8,7 +8,7 @@
     "desc": "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore nulla facilisis."
   },
   {
-    "image": "http://www.themesindustry.com/html/bistro/images/news-img2.jpg",
+    "image": "/images/news-img2.jpg",
     "day": "22",
     "month": "apr",
     "comment": "5",
@@ -16,7 +16,7 @@
     "desc": "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore nulla facilisis."
   },
   {
-    "image": "http://www.themesindustry.com/html/bistro/images/news-img3.jpg",
+    "image": "/images/news-img3.jpg",
     "day": "22",
     "month": "apr",
     "comment": "5",
@@ -24,7 +24,7 @@
     "desc": "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore nulla facilisis."
   },
   {
-    "image": "http://www.themesindustry.com/html/bistro/images/news-img1.jpg",
+    "image": "/images/news-img1.jpg",
     "day": "22",
     "month": "apr",
     "comment": "5",
@@ -32,7 +32,7 @@
     "desc": "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore nulla facilisis."
   },
   {
-    "image": "http://www.themesindustry.com/html/bistro/images/news-img2.jpg",
+    "image": "/images/news-img2.jpg",
     "day": "22",
     "month": "apr",
     "comment": "5",
@@ -40,7 +40,7 @@
     "desc": "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore nulla facilisis."
   },
   {
-    "image": "http://www.themesindustry.com/html/bistro/images/news-img3.jpg",
+    "image": "/images/news-img3.jpg",
     "day": "22",
     "month": "apr",
     "comment": "5",
